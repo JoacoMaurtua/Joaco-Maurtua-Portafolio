@@ -70,7 +70,7 @@ export default function ImageSection({video,titulo,descripcion,nombre,lenguajes,
       </div>
       <div className="right-content">
           
-          <h4>Yo soy<span> {titulo} </span></h4>
+          <h4><span> {titulo} </span></h4>
           
           <p className="paragraph">
               {descripcion}

@@ -42,7 +42,7 @@ export default function Resume() {
               />
               <ResumeItem 
                 title={'Back-end'}
-                text={'MVC, Firebase, JWT, Cookie Parser, Socket.io, AWS-EC2, Integración-Checkout PayPal, Postman.'}
+                text={'MVC, Firebase, JWT, Cookie Parser, Socket.io, AWS-EC2, Integración-Checkout PayPal y Mercado Pago, Postman.'}
               />
               <ResumeItem 
                 title={'Otras Herramientas'}
@@ -57,12 +57,12 @@ export default function Resume() {
               <ResumeItem 
                 year = {'2021'}
                 title={'Coding Dojo Bootcamp'}
-                text={'Ambos certificados como cinturón negro (rango más alto) en el desarrollo de fullstack MERN.'}
+                text={'Certificado como cinturón negro (rango más alto) en el desarrollo de fullstack MERN.'}
               />
               <ResumeItem 
                 year = {'2020'}
                 title={'Computer Science BA'}
-                text={'Ambos en Universidad Católica San Pablo, Arequipa(Perú)'}
+                text={'Universidad Católica San Pablo, Arequipa(Perú)'}
               />
           </div>
       </InnerLayout>

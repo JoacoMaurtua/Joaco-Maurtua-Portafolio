@@ -18,24 +18,15 @@ export default function AboutPage() {
             <Particle />
        </div>
       <AboutStyled>
-          <Title title={"Nosotros"} span={"Nosotros"}/>
+          <Title title={"Sobre Mí"} span={"Sobre M"}/>
           <ImageSection 
-                        titulo={'Joaquín Maúrtua'}
+                        titulo={'Joaquín Maúrtua Diban'}
                         video={joacoV}
                         descripcion={'¡Hola Mundo! Soy Joaquín, me gustan los desafíos, la innovación y encontrar soluciones creativas a problemas interesantes, aspiro a liderar un gran equipo de personas con diferentes habilidades y sacar adelante un gran proyecto.'}
                         nombre={'Joaquín Maúrtua Diban'}                      
-                        lenguajes={'Español, Inglés'}
+                        lenguajes={'Español, Inglés(Intermedio)'}
                         hobbies={'Actuar, Dibujar, Deportes'}
                         doc = {JoacoCV}
-          />
-           <ImageSection 
-                        titulo={'Stefano Quiroz'}
-                        video={stefanoV}
-                        descripcion={'¡Hola Mundo! Soy Stefano, me gusta analizar problemas y encontrar soluciones lógicas, nunca me doy por vencido y siempre encuentro una solución, me encanta ser parte de un equipo y aportar todas mis habilidades en pos de triunfar.'}
-                        nombre={'Stefano Quiroz Chumbes'}
-                        lenguajes={'Español, Inglés, Portugués'}
-                        hobbies={'Tocar piano, Viajar, Deportes'}
-                        doc = {StefanoCV}
           />
           <ServicesSection/>
           <ImageContainer>

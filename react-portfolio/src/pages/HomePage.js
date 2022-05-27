@@ -63,12 +63,12 @@ export default function HomePage() {
         <Particle />
       </div>
       <div className="typography">
-          <h1 >¡Hola!<span style={{color:"var(--primaryColor)"}}> Somos FalconDev</span></h1>
+          <h1 >¡Hola Mundo!<span style={{color:"var(--primaryColor)"}}> Soy Joaquín</span></h1>
           <p>
-          ¡Más que un equipo! Somos FalconDev, un par de locos por el desarrollo de
-          software, dispuestos a llevar a cabo, o mejor dicho, llevar al código aquellas ideas
-          que crearán valor y cambiarán las cosas.
-          ¡Desarrolladores fullstack MERN Junior disponibles para trabajar remotamente!
+          Un sujeto extrovertido, con muchas ganas de innovar y seguir aprendiendo cada día,
+          me apasiona la tecnología y como usarla para crear valor en la sociedad, me gusta
+          mucho trabajar en equipo y llevar al código ideas loquísimas.
+          ¡Desarrollador fullstack MERN Junior disponible para trabajar remotamente!
             
           </p>
           <div className="icons">
@@ -78,12 +78,10 @@ export default function HomePage() {
               <a href="https://github.com/JoacoMaurtua" className="icon i-github">
                 <GithubIcon />
               </a>
-              <a href="https://www.linkedin.com/in/stefano-quiroz-597403210/" className="icon i-linkdin">
-                <LinkedInIcon />
+              <a href="https://www.instagram.com/maurtuadiban/" className="icon i-instagram">
+                <InstagramIcon />
               </a>
-              <a href="https://github.com/StefanoQuiroz" className="icon i-github">
-                <GithubIcon />
-              </a>
+              
           </div>
       </div>
       

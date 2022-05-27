@@ -1,9 +1,6 @@
-import React, {useContext} from 'react';
-import { MyContext } from '../App';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import avatar from '../images/avatar.png';
-import avatar2 from '../images/avatar-2.png';
+import JMD from '../images/JMD.png';
 import { GiFalconMoon } from "react-icons/gi";
 
 const NavigationStyled = styled.div`
@@ -23,7 +20,7 @@ const NavigationStyled = styled.div`
     img{
       width: 90%;
       border-radius: 50%;
-      border: 8px solid var(--borderColor);
+      border: 5px solid var(--borderColor);
       &:hover{
         transform: translateY(-5px);
         cursor: pointer;
@@ -98,23 +95,18 @@ const NavigationStyled = styled.div`
 
 export default function Navigation() {
 
-  const {theme} = useContext(MyContext);
   const year = new Date();
   return (
     <NavigationStyled>
       <div className="avatar">
-        {
-          theme === 'dark-theme'? <img src={avatar} alt=""/>:
-          <img src={avatar2} alt=""/>
-        }
-           
+       <img src={JMD} alt=""/>
       </div>
       <ul className="nav-items">
           <li className="nav-item">
               <NavLink to ="/" activeClassName="active-class">Inicio</NavLink>
           </li>
           <li className="nav-item">
-              <NavLink to ="/about" activeClassName="active-class">Nosotros</NavLink>
+              <NavLink to ="/about" activeClassName="active-class">Sobre Mí</NavLink>
           </li>
           <li className="nav-item">
               <NavLink to ="/resume" activeClassName="active-class">Habilidades</NavLink>
@@ -129,7 +121,7 @@ export default function Navigation() {
       <footer>
         <p>
           <span role="img" aria-label="copy-right"> 
-            FalconDevs<GiFalconMoon style={{margin: "0rem 0.2rem"}}/>©{year.getFullYear()} 
+            JoacoMaúrtua<GiFalconMoon style={{margin: "0rem 0.2rem"}}/>©{year.getFullYear()} 
           </span>
         </p>
       </footer>

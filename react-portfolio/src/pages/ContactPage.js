@@ -176,11 +176,11 @@ export default function ContactPage() {
           </div>
             <div className="left-content">
               <div className="contact-title">
-                  <h4>¡Contáctanos!</h4>
+                  <h4>¡Contáctame!</h4>
               </div>
               <form className="form" ref={formRef} onSubmit={handleSubmit}>
                 <div className="form-field">
-                  <label htmlFor="name" id="name">Escriba su nombre</label>
+                  <label htmlFor="name" id="name">Su nombre por favor</label>
                   <input
                     type="text"
                     id="name"
@@ -193,7 +193,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="form-field">
-                  <label htmlFor="subject" id="subject">Asunto </label>
+                  <label htmlFor="subject" id="subject">Asunto</label>
                   <input
                     type="text"
                     id="subject"
@@ -206,7 +206,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="form-field">
-                  <label htmlFor="email" id="email">Escriba su email </label>
+                  <label htmlFor="email" id="email">Su email por favor</label>
                   <input
                     type="email"
                     id="email" 
@@ -226,7 +226,7 @@ export default function ContactPage() {
 
 
                 <div className="form-field">
-                  <label htmlFor="textarea">¿En qué podemos ayudarte? </label>
+                  <label htmlFor="textarea">¿En qué puedo ayudarte? </label>
                   <textarea 
                     id="textarea" 
                     cols="30" rows="7.5"
