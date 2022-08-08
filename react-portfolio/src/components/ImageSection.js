@@ -81,7 +81,7 @@ export default function ImageSection({video,titulo,descripcion,nombre,lenguajes,
                   <p><span>Nacionalidad:</span> Peruano </p>
                   <p><span>Lenguajes:</span> {lenguajes} </p>
                   <p><span>Hobbies:</span>  {hobbies} </p>
-                  <p><span>Ubicación:</span>  Arequipa, Perú</p>
+                  <p><span>Ubicación:</span>  Arequipa, Perú (100% Remoto)</p>
                   <p><span>Profesión:</span> Desarrollador Full Stack MERN Junior</p>
               </div>
           </div>
