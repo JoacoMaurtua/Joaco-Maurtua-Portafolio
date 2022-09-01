@@ -180,7 +180,7 @@ export default function Resume() {
             }
           />
         </div>
-        <MenuItemStyled style={{'width': '80rem'}}>
+        <MenuItemStyled>
           <div className="grid-item">
             <div className="portfolio-content">
               <div className="portfolio-image">
@@ -215,7 +215,7 @@ export default function Resume() {
           />
         </div>
 
-        <MenuItemStyled style={{'width': '80rem'}}>
+        <MenuItemStyled>
           <div className="grid-item">
             <div className="portfolio-content">
               <div className="portfolio-image">

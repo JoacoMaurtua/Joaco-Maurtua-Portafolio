@@ -10,6 +10,7 @@ import table from '../images/table.PNG';
 import crypto from '../images/crypto.PNG';
 import dog from '../images/dog.PNG';
 import tierra from '../images/tierra.PNG';
+import blog from '../images/blog.PNG';
 
 
 const projects = [
@@ -144,9 +145,17 @@ const projects = [
     link2:'https://mundo-three-d.web.app/',
     title: 'Planeta en 3D!',
     text: 'Animacion en 3d del planeta Tierra hecha en React.js con Three.js.'
-  }
-
+  },
   
+  {
+    id:14,
+    category: 'Fullstack',
+    image: blog,
+    link: 'https://github.com/JoacoMaurtua/El-PlusUltraBlog',
+    link2:'https://el-plus-ultra-blog.vercel.app/',
+    title: 'El PlusUltra Blog',
+    text: 'Blog moderno real realizado con Next.js, Tailwind CSS y GraphQL',
+  },
 ]
 
 export default projects;
