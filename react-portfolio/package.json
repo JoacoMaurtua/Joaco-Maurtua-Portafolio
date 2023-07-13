@@ -1,6 +1,6 @@
 {
   "name": "react-portfolio",
-  "homepage": "https://falcondevelopersportfolio.dev",
+  "homepage": "https://JoacoMaurtua.github.io/Joaco-Maurtua-Portafolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +19,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "framer-motion": "^4.1.17",
+    "gh-pages": "^5.0.0",
     "jspdf": "^2.5.1",
     "next": "^12.0.4",
     "react": "^17.0.2",
@@ -36,6 +37,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
