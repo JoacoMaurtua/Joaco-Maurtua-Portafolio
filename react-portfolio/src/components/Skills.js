@@ -25,50 +25,68 @@ export default function Skills() {
           <div className="skills">
             <ProgressBar
               title={'HTML5'}
-              width={'80%'}
-              text={'80%'}
+              width={'100%'}
+              text={'100%'}
             />
 
             <ProgressBar
               title={'MONGODB'}
-              width={'70%'}
-              text={'70%'}
-            />
-
-            <ProgressBar
-              title={'CSS3'}
               width={'90%'}
               text={'90%'}
             />
 
             <ProgressBar
+              title={'CSS3'}
+              width={'100%'}
+              text={'100%'}
+            />
+
+            <ProgressBar
               title={'MONGOOSE'}
-              width={'75%'}
-              text={'75%'}
+              width={'90%'}
+              text={'90%'}
             />
 
             <ProgressBar
               title={'JAVASCRIPT'}
-              width={'85%'}
-              text={'85%'}
+              width={'100%'}
+              text={'100%'}
+            />
+
+            <ProgressBar
+              title={'TYPESCRIPT'}
+              width={'80%'}
+              text={'80%'}
             />
 
             <ProgressBar
               title={'EXPRESS'}
+              width={'100%'}
+              text={'100%'}
+            />
+
+             <ProgressBar
+              title={'REACT JS'}
+              width={'100%'}
+              text={'100%'}
+            />
+
+             <ProgressBar
+              title={'NEXT JS'}
               width={'70%'}
               text={'70%'}
             />
 
              <ProgressBar
-              title={'REACT JS'}
-              width={'85%'}
-              text={'85%'}
+              title={'VUE JS'}
+              width={'90%'}
+              text={'90%'}
             />
 
              <ProgressBar
               title={'NODE JS'}
-              width={'75%'}
-              text={'75%'}
+              width={'100%'}
+              text={'100%'}
             />
             
           </div>

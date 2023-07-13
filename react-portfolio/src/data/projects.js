@@ -1,12 +1,16 @@
 import chifaApp from '../images/chifa-app.PNG';
 import gameApp from '../images/game-app.PNG'
-import google from '../images/google.PNG';
-import netflix from '../images/netflix.PNG';
+
 import ctc from '../images/ctc.PNG';
 import nike from '../images/nike.PNG';
 import task from '../images/task.PNG';
-import whats from '../images/whats.PNG';
-import table from '../images/table.PNG';
+
+import ecommerceBuke from '../images/ecommerceBuke.PNG'
+
+import cuento1 from '../images/cuento1.PNG'
+import cuento2 from '../images/cuento2.PNG'
+import cuento3 from '../images/cuento3.PNG'
+
 import crypto from '../images/crypto.PNG';
 import dog from '../images/dog.PNG';
 import tierra from '../images/tierra.PNG';
@@ -14,18 +18,50 @@ import blog from '../images/blog.PNG';
 
 
 const projects = [
+  
   {
     id:1,
-    category: 'Frontend',
-    image: google,
-    link: 'https://github.com/JoacoMaurtua/Google-search-simulator',
-    link2: 'https://simple-search-simulator.web.app/',
-    title: 'Simulador de Google',
-    text: 'Una replica de la interfaz principal de Google creada en React.js'
+    category: 'Fullstack',
+    image: ecommerceBuke,
+    link2: 'https://www.bukestore.com/',
+    title: 'Buke Store Ecommerce',
+    text: 'Proyecto profesional, Ecommerce completamente funcional para Buke Store (Hecho en MEVN).'
   },
+
 
   {
     id:2,
+    category: 'Frontend',
+    image: cuento1,
+    link: 'https://github.com/JoacoMaurtua/New-Tale-Animations/tree/main/Liebre_y_Tortuga_NMotor',
+    link2: 'https://vivaleer.matchlab.cl/previews/2022/liebre_tortuga_NMotor/v6/index.html',
+    title: "Cuento Animado 'La Liebre y la Tortuga'",
+    text: 'Proyecto profesional(freelance), Cuento animado hecho en html, css, js y la libreria GSAP 3.0'
+  },
+
+  {
+    id:3,
+    category: 'Frontend',
+    image: cuento2,
+    link: 'https://github.com/JoacoMaurtua/TaleAnimation/tree/main/el_flautista_de_hamelin_actualizado',
+    link2: 'https://vivaleer.matchlab.cl//previews/2021/homologacion/flauta-v11/',
+    title: "Cuento Animado 'El flautista de Hamelin'",
+    text: 'Proyecto profesional(freelance), Cuento animado hecho en html, css, js y la libreria GSAP 3.0'
+  },
+
+  {
+    id:4,
+    category: 'Frontend',
+    image: cuento3,
+    link: 'https://github.com/JoacoMaurtua/TaleAnimation/tree/main/ricitos_de_oro_01',
+    link2: 'https://vivaleer.matchlab.cl//previews/2021/homologacion/ricitos-v6/',
+    title: "Cuento Animado 'Ricitos de Oro'",
+    text: 'Proyecto profesional(freelance), Cuento animado hecho en html, css, js y la libreria GSAP 3.0'
+  },
+
+  
+  {
+    id:5,
     category: 'Frontend',
     image: chifaApp,
     link: 'https://github.com/JoacoMaurtua/ChifaPage',
@@ -34,18 +70,9 @@ const projects = [
     text: 'Pagina de restaurante hecha en HTML,CSS y JS'
   },
 
+ 
   {
-    id:3,
-    category: 'Frontend',
-    image: netflix,
-    link: 'https://github.com/StefanoQuiroz/NetflixCloneReact',
-    link2: 'https://netflix-clone-64280.web.app/',
-    title: 'Clon de Netflix',
-    text: 'Una replica de Netflix Rest API muy similar a la plataforma original.'
-  },
-
-  {
-    id:4,
+    id:6,
     category: 'Frontend',
     image: ctc,
     link: 'https://github.com/StefanoQuiroz/CTC',
@@ -55,7 +82,7 @@ const projects = [
   },
 
   {
-    id:5,
+    id:7,
     category: 'Frontend',
     image: nike,
     link: 'https://github.com/JoacoMaurtua/3d-animated-card',
@@ -65,33 +92,13 @@ const projects = [
   },
 
   {
-    id:6,
+    id:8,
     category: 'Fullstack',
     image: task,
     link: 'https://github.com/JoacoMaurtua/Complete-task-manager',
     link2:'http://18.224.96.131/',
     title: 'Task Manager',
     text: 'Aplicacion para crear tareas en MERN, se utilizo JWT para la autorizacion del user.'
-  },
-
-  {
-    id:7,
-    category: 'Fullstack',
-    image: whats,
-    link: 'https://github.com/StefanoQuiroz/MyOwnChat',
-    link2:'https://chatwsp.web.app/',
-    title: 'Chat WhatsApp',
-    text: 'Replica de chat de whatsApp utilizando MERN.'
-  },
-
-  {
-    id:8,
-    category: 'Fullstack',
-    image: table,
-    link: 'https://github.com/StefanoQuiroz/Kanban-Board',
-    link2:'http://18.224.23.223/',
-    title: 'Kanban App',
-    text: 'Aplicacion MERN para administrar tiempos, tareas y proyectos .'
   },
 
 
@@ -115,6 +122,7 @@ const projects = [
     title: 'Tarjeta en 3D!',
     text: 'Tarjeta de zapatilla nike air jordan creada con framer motion.'
   },
+
 
   {
     id:11,
@@ -147,6 +155,7 @@ const projects = [
     text: 'Animacion en 3d del planeta Tierra hecha en React.js con Three.js.'
   },
   
+
   {
     id:14,
     category: 'Fullstack',

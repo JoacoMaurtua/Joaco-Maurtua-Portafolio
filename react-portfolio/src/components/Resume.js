@@ -148,7 +148,7 @@ export default function Resume() {
           <ResumeItem
             title={'Front-end'}
             text={
-              'React Native, Next.js, JQuery, LESS, SASS, Tailwind, BackBone.js, Bootstrap, Reactstrap, Material UI, RESTful API, React Motion, Three.js, React Three Fiber 3D, WebGL, GSAP.'
+              'React Native, JQuery, LESS, SASS, Tailwind, BackBone.js, Bootstrap, Reactstrap, Material UI, RESTful API, React Motion, Three.js, React Three Fiber 3D, WebGL, GSAP.'
             }
           />
           <ResumeItem

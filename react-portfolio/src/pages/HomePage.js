@@ -68,7 +68,7 @@ export default function HomePage() {
           Un sujeto extrovertido, con muchas ganas de innovar y seguir aprendiendo cada día,
           me apasiona la tecnología y como usarla para crear valor en la sociedad, me gusta
           mucho trabajar en equipo y llevar al código ideas loquísimas.
-          ¡Desarrollador fullstack MERN Junior disponible para trabajar remotamente!
+          ¡Desarrollador fullstack MERN y MEVN disponible para trabajar remotamente!
             
           </p>
           <div className="icons">
