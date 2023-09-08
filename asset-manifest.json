@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Joaco-Maurtua-Portafolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/Joaco-Maurtua-Portafolio/static/js/main.e484265d.chunk.js",
-    "main.js.map": "/Joaco-Maurtua-Portafolio/static/js/main.e484265d.chunk.js.map",
+    "main.css": "/Joaco-Maurtua-Portafolio/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/Joaco-Maurtua-Portafolio/static/js/main.8c17f519.chunk.js",
+    "main.js.map": "/Joaco-Maurtua-Portafolio/static/js/main.8c17f519.chunk.js.map",
     "runtime-main.js": "/Joaco-Maurtua-Portafolio/static/js/runtime-main.1e08c0d8.js",
     "runtime-main.js.map": "/Joaco-Maurtua-Portafolio/static/js/runtime-main.1e08c0d8.js.map",
-    "static/js/2.bc74519c.chunk.js": "/Joaco-Maurtua-Portafolio/static/js/2.bc74519c.chunk.js",
-    "static/js/2.bc74519c.chunk.js.map": "/Joaco-Maurtua-Portafolio/static/js/2.bc74519c.chunk.js.map",
+    "static/js/2.6023bb95.chunk.js": "/Joaco-Maurtua-Portafolio/static/js/2.6023bb95.chunk.js",
+    "static/js/2.6023bb95.chunk.js.map": "/Joaco-Maurtua-Portafolio/static/js/2.6023bb95.chunk.js.map",
     "static/js/3.53fa5904.chunk.js": "/Joaco-Maurtua-Portafolio/static/js/3.53fa5904.chunk.js",
     "static/js/3.53fa5904.chunk.js.map": "/Joaco-Maurtua-Portafolio/static/js/3.53fa5904.chunk.js.map",
     "index.html": "/Joaco-Maurtua-Portafolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/Joaco-Maurtua-Portafolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.bc74519c.chunk.js.LICENSE.txt": "/Joaco-Maurtua-Portafolio/static/js/2.bc74519c.chunk.js.LICENSE.txt",
+    "static/css/main.2ae47eeb.chunk.css.map": "/Joaco-Maurtua-Portafolio/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.6023bb95.chunk.js.LICENSE.txt": "/Joaco-Maurtua-Portafolio/static/js/2.6023bb95.chunk.js.LICENSE.txt",
     "static/media/CDJ.5781b709.PNG": "/Joaco-Maurtua-Portafolio/static/media/CDJ.5781b709.PNG",
     "static/media/JMD.3f3633c7.png": "/Joaco-Maurtua-Portafolio/static/media/JMD.3f3633c7.png",
     "static/media/JoaquinMaurtua_CV.0dcd83f9.pdf": "/Joaco-Maurtua-Portafolio/static/media/JoaquinMaurtua_CV.0dcd83f9.pdf",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1e08c0d8.js",
-    "static/js/2.bc74519c.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e484265d.chunk.js"
+    "static/js/2.6023bb95.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.8c17f519.chunk.js"
   ]
 }
